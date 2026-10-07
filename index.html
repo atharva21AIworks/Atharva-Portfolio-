@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atharva Ekbote | AI agents that answer calls, qualify leads and follow up automatically</title>
+    <meta name="description" content="Atharva Ekbote | AI agents that answer calls, qualify leads and follow up automatically">
+    <meta property="og:title" content="Atharva Ekbote | AI Automation Solutions">
+    <meta property="og:description" content="AI Engineer building automated voice agents, WhatsApp agents, and workflow automations to save time and book more jobs.">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="custom-cursor" class="custom-cursor"></div>
+    <div id="progress-bar"></div>
+    <canvas id="animationCanvas"></canvas>
+    
+    <nav class="navbar">
+        <div class="logo">Atharva Ekbote</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#process">Process</a>
+            <a href="#contact-section">Contact</a>
+            <a href="https://cal.com/atharva-ekbote-kmouu9/15-min-intro-call" target="_blank" class="btn-primary magnetic">Book a 15-min call &rarr;</a>
+        </div>
+    </nav>
+
+    <div class="scroll-content">
+        <section id="home" class="hero-section fade-up">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <p class="subtitle">Hey, I'm Atharva &mdash;</p>
+                    <h1 class="title">I build AI systems<br><span class="highlight">that answer calls,</span><br><span class="highlight">qualify leads and</span><br><span class="highlight">follow up automatically.</span></h1>
+                </div>
+                <div class="hero-right">
+                    <h2>Less manual work.<br><span class="highlight">More booked jobs.</span></h2>
+                    <p>From logic to language, I build AI systems that connect and convert.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn-outline magnetic">View Projects</a>
+                        <a href="https://cal.com/atharva-ekbote-kmouu9/15-min-intro-call" target="_blank" class="btn-primary btn-orange magnetic">Book a 15-min call &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="services">
+                <div class="service fade-up" style="transition-delay: 0.1s;">
+                    <span class="num">#01</span>
+                    <p>Voice AI Receptionists</p>
+                    <span class="service-desc">24/7 call answering and booking.</span>
+                </div>
+                <div class="service fade-up" style="transition-delay: 0.2s;">
+                    <span class="num">#02</span>
+                    <p>WhatsApp Automation</p>
+                    <span class="service-desc">Smart lead qualification agents.</span>
+                </div>
+                <div class="service fade-up" style="transition-delay: 0.3s;">
+                    <span class="num">#03</span>
+                    <p>Workflow Automation</p>
+                    <span class="service-desc">Connecting apps with n8n.</span>
+                </div>
+                <div class="service fade-up" style="transition-delay: 0.4s;">
+                    <span class="num">#04</span>
+                    <p>AI-powered Websites</p>
+                    <span class="service-desc">Modern web apps with AI features.</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-marquee-section">
+            <div class="marquee">
+                <div class="marquee-content">
+                    <span>Vapi</span> <span class="dot">&bull;</span>
+                    <span>n8n</span> <span class="dot">&bull;</span>
+                    <span>OpenAI</span> <span class="dot">&bull;</span>
+                    <span>WhatsApp Cloud API</span> <span class="dot">&bull;</span>
+                    <span>Google Sheets</span> <span class="dot">&bull;</span>
+                    <span>Google Calendar</span> <span class="dot">&bull;</span>
+                    <span>Cal.com</span> <span class="dot">&bull;</span>
+                    <span>Vapi</span> <span class="dot">&bull;</span>
+                    <span>n8n</span> <span class="dot">&bull;</span>
+                    <span>OpenAI</span> <span class="dot">&bull;</span>
+                    <span>WhatsApp Cloud API</span> <span class="dot">&bull;</span>
+                    <span>Google Sheets</span> <span class="dot">&bull;</span>
+                    <span>Google Calendar</span> <span class="dot">&bull;</span>
+                    <span>Cal.com</span> <span class="dot">&bull;</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="featured-projects">
+            <h2 class="section-title fade-up">Featured Projects</h2>
+            
+            <div class="sticky-cards">
+                <div class="project-card sticky" style="top: 100px;">
+                    <div class="project-info">
+                        <h3>AI Voice Receptionist</h3>
+                        <p class="problem">Missed calls mean missed revenue for home service businesses.</p>
+                        <p class="what-built"><strong>What I built:</strong> Built for Insurance companies. Sends staged WhatsApp renewal reminders from a policy sheet, handles replies, updates status and escalates to Telegram.</p>
+                        <div class="tech-chips">
+                            <span>Vapi</span><span>n8n</span><span>OpenAI</span><span>Google Calendar</span><span>Sheets</span>
+                        </div>
+                    </div>
+                    <div class="project-audio-players">
+                        <div class="audio-card" data-audio="/assets/audio/booking-call.mp3">
+                            <div class="audio-header">
+                                <div class="audio-icon" aria-hidden="true">&#x260E;&#xFE0F;</div>
+                                <span class="audio-title">Demo booking call</span>
+                            </div>
+                            <p class="audio-description">A customer books a service appointment and the AI confirms the slot.</p>
+                            <div class="audio-controls">
+                                <button class="play-pause" aria-label="Play booking call recording">&#9658;</button>
+                                <span class="time">0:00 / 0:00</span>
+                                <input type="range" class="seek-bar" min="0" max="100" value="0" step="0.1">
+                                <button class="mute-btn" aria-label="Mute">&#128264;</button>
+                            </div>
+                            <div class="waveform"></div>
+                        </div>
+                        <div class="audio-card" data-audio="/assets/audio/emergency-intake.mp3">
+                            <div class="audio-header">
+                                <div class="audio-icon" aria-hidden="true">&#x26A0;&#xFE0F;</div>
+                                <span class="audio-title">Demo emergency intake call</span>
+                            </div>
+                            <p class="audio-description">A customer reports an urgent problem and the AI collects the details.</p>
+                            <div class="audio-controls">
+                                <button class="play-pause" aria-label="Play emergency intake call recording">&#9658;</button>
+                                <span class="time">0:00 / 0:00</span>
+                                <input type="range" class="seek-bar" min="0" max="100" value="0" step="0.1">
+                                <button class="mute-btn" aria-label="Mute">&#128264;</button>
+                            </div>
+                            <div class="waveform"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card sticky" style="top: 140px;">
+                    <div class="project-info">
+                        <h3>Whatsapp Lead Qualification Agent</h3>
+                        <p class="problem">Real estate brokers spend hours manually qualifying bad leads.</p>
+                        <p class="what-built"><strong>What I built:</strong> WhatsApp Lead Qualification Agent. Qualifies leads on budget, location, timeline and purpose in Hinglish, remembers each conversation, and logs qualified leads to Google Sheets.</p>
+                        <div class="tech-chips">
+                            <span>n8n</span><span>Meta WhatsApp API</span><span>OpenAI</span><span>Google Sheets</span>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="project-card sticky" style="top: 180px;">
+                    <div class="project-info">
+                        <h3>Policy Renewal Reminder <span class="label">Pilot demo</span></h3>
+                        <p class="problem">Following up on expiring financial policies is tedious and error-prone.</p>
+                        <p class="what-built"><strong>What I built:</strong> Built for Oasis Financial Services (Pune). Sends staged WhatsApp renewal reminders from a policy sheet, handles replies, updates status and escalates to Telegram.</p>
+                        <div class="tech-chips">
+                            <span>n8n</span><span>WhatsApp Cloud API</span><span>Google Sheets</span><span>Telegram</span>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                        <div class="project-card sticky" style="top: 220px;">
+            <div class="project-info">
+                <h3>AI Newsletter Automation</h3>
+                <p class="problem">Businesses struggle to consistently create engaging newsletters.</p>
+                <p class="what-built"><strong>What I built:</strong> An automated AI-powered newsletter generator that drafts, designs, and schedules email newsletters using OpenAI and Mailchimp API.</p>
+                <div class="tech-chips">
+                    <span>OpenAI</span><span>Mailchimp API</span><span>Node.js</span><span>Tailwind</span>
+                </div>
+                <a href="https://github.com/atharva/ai-newsletter-automation" class="btn-outline magnetic" style="margin-top: 1rem; width: max-content;">View on GitHub</a>
+            </div>
+        </div>
+                </div>
+            </div>
+        </section>
+        <section class="more-builds fade-up"><div class="section-container">
+            <h2 class="section-title">More Builds</h2>
+            <div class="grid">
+                <div class="build-card">
+                    <h4>Smart Toll AI Agent</h4>
+                    <p>LlamaIndex, ChromaDB, Gemini, FastAPI</p>
+                </div>
+
+                <div class="build-card">
+                    <h4>Healthcare Premium Prediction</h4>
+                    <p>Machine Learning</p>
+                </div>
+
+            </div>
+        </div></section>
+
+<section id="about" class="about-section fade-up"><div class="section-container">
+    <div class="about-container">
+        <div class="about-box">
+            <h2 class="about-headline">I BUILD THE SYSTEMS BEHIND BUSINESS GROWTH.</h2>
+            <p class="about-paragraph">From lead generation and qualification to sales, customer communication, and operations — I build connected AI systems that reduce manual work and turn more opportunities into customers.</p>
+            <div class="about-buttons">
+                <a href="#projects" class="btn-primary btn-orange magnetic">See What I Build</a>
+                <a href="#contact-section" class="btn-outline magnetic">Work With Me</a>
+            </div>
+        </div>
+    </div>
+</div></section>
+
+
+
+
+
+
+        <!-- New Contact and FAQ Section -->
+        <section id="contact-section" class="contact-section-new fade-up"><div class="section-container">
+            <div class="contact-container">
+                <div class="contact-left fade-up" style="transition-delay: 0.1s;">
+                    <p class="highlight">CONTACT</p>
+                    <h2 class="contact-heading">Let's talk about your business</h2>
+                    <p class="desc">Tell me what's slowing your business down. I'll reply within 24 hours with an honest answer, even if automation isn't the right fit.</p>
+                    
+                    <div class="contact-steps">
+                        <p class="steps-title">What happens next</p>
+                        <div class="step-item">
+                            <span class="step-num">1</span>
+                            <p id="step-1-text">Fill the form</p>
+                        </div>
+                        <div class="step-item">
+                            <span class="step-num">2</span>
+                            <p id="step-2-text">Tap send in WhatsApp</p>
+                        </div>
+                        <div class="step-item">
+                            <span class="step-num">3</span>
+                            <p id="step-3-text">I reply personally, usually within 24 hours.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="email-row">
+                            <div>
+                                <span class="label-muted">EMAIL ME</span>
+                                <p class="email-text">ekboteatharva1@gmail.com</p>
+                            </div>
+                            <button id="copy-email-btn" class="pill-btn magnetic">Copy</button>
+                        </div>
+                        <hr class="divider">
+                        <div class="whatsapp-row">
+                            <p>Fastest reply: <a href="https://wa.me/919405862575?text=Hi%20Atharva%2C%20I%20found%20your%20portfolio" target="_blank" class="orange-link">WhatsApp</a></p>
+                        </div>
+                        <div class="contact-card-actions">
+                            <a href="https://cal.com/atharva-ekbote-kmouu9/15-min-intro-call" target="_blank" class="btn-outline magnetic">Book a 15-min call &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-right fade-up" style="transition-delay: 0.2s;">
+                    <div id="form-container" class="form-card">
+                        <form id="wa-form">
+                            <!-- honeypot -->
+                            <input type="text" name="website_url" class="honeypot" tabindex="-1" autocomplete="off">
+                            
+                            <div class="form-group">
+                                <label>Name *</label>
+                                <input type="text" id="wa-name" placeholder="Your name">
+                                <span class="error-text" id="err-name"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Email *</label>
+                                <input type="email" id="wa-email" placeholder="you@company.com">
+                                <span class="error-text" id="err-email"></span>
+                            </div>
+                            <div class="form-group">
+                                <label>Phone / WhatsApp (optional)</label>
+                                <input type="text" id="wa-phone" placeholder="+91 ...">
+                            </div>
+                            <div class="form-group">
+                                <label>Company / Website (optional)</label>
+                                <input type="text" id="wa-company" placeholder="yourcompany.com">
+                            </div>
+                            <div class="form-group">
+                                <label>What takes up most of your team's time? *</label>
+                                <textarea id="wa-message" rows="4" placeholder="e.g. We miss calls after 6 PM and lose customers"></textarea>
+                                <span class="error-text" id="err-message"></span>
+                            </div>
+                            <button type="submit" class="btn-primary btn-orange full-width magnetic form-submit-btn">
+                                <svg class="wa-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                                Send via WhatsApp &rarr;
+                            </button>
+                            <p class="muted-text text-center" style="margin-top: 1rem; font-size: 0.85rem;">This opens WhatsApp with your message ready to send.</p>
+                        </form>
+                    </div>
+
+                    <div id="success-card" class="form-card hidden">
+                        <div class="success-icon">&#10004;</div>
+                        <h3 id="success-heading">Almost done!</h3>
+                        <p>WhatsApp is opening. Just tap SEND to deliver your message to me.</p>
+                        <a id="wa-retry-link" href="#" target="_blank" class="btn-primary btn-orange full-width magnetic" style="margin-bottom:1rem;">Open WhatsApp again</a>
+                        <a href="https://cal.com/atharva-ekbote-kmouu9/15-min-intro-call" target="_blank" class="btn-outline full-width magnetic">Book a 15-min call</a>
+                        <button id="edit-msg-btn" class="text-btn">Edit my message</button>
+                    </div>
+                </div></div></section>
+            </div>
+            
+            <div class="faq-section fade-up" style="transition-delay: 0.3s;"><div class="section-container">
+                <p class="highlight text-center"><small>FAQ</small></p>
+                <h2 class="text-center">Quick answers</h2>
+                
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button aria-expanded="false" class="accordion-header">
+                            <span class="accordion-title">How much does it cost?</span>
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="content-inner">
+                                <p>Most projects start with a small paid pilot so you can see it working before committing to more. The final price depends on how many steps and tools are involved. After a free 15-minute call I'll give you a clear quote with no hidden charges.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button aria-expanded="false" class="accordion-header">
+                            <span class="accordion-title">How long does it take?</span>
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="content-inner">
+                                <p>A simple automation usually takes 3 to 4 days. A voice receptionist or a bigger setup usually takes 1 to 2 weeks. I'll give you a clear timeline before we start.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button aria-expanded="false" class="accordion-header">
+                            <span class="accordion-title">What if I need changes or something stops working?</span>
+                            <span class="icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="content-inner">
+                                <p>I offer an ongoing support plan. If something breaks or you want to add a new step, you message me and I fix it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="faq-footer text-center">
+                    <p style="color: var(--text-muted); margin-bottom: 1rem;">Still have a question?</p>
+                    <a href="https://wa.me/919405862575?text=Hi%20Atharva%2C%20I%20have%20a%20question" target="_blank" class="btn-outline magnetic">Message me on WhatsApp</a>
+                </div>
+            </div></div>
+        </section>
+
+        <!-- Old Footer (stripped down) -->
+        <section class="footer-section fade-up"><div class="section-container">
+            <h2 class="huge-title">Have a problem worth solving?<br>Let's build the system.</h2>
+            <div class="footer-links">
+                <a href="https://cal.com/atharva-ekbote-kmouu9/15-min-intro-call" target="_blank" class="btn-primary btn-orange magnetic" style="font-size: 1.2rem; padding: 1rem 2rem;">Book a 15-min call &rarr;</a>
+                
+            </div>
+        </div></section>
+        
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
